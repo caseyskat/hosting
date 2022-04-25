@@ -44,7 +44,7 @@ header{
     
 }
 }
-section{
+.box_2{
     display: grid;
     grid-template-columns: 50% 50%;
     .left{   
@@ -133,13 +133,16 @@ section{
     }
 }
 .big_box{
-    display: grid;
-    grid-template-columns: 100%;
     .icons{
         display: flex;
         flex-direction: row;
         gap: 60px;
-        justify-content: space-between;
-        align-items: center;
+        justify-content: center;
+        font-family: 'Popins', sans-serif;
+        margin-bottom: 157px;
+     h4{
+            font-weight: 700;
+            margin-top: 12px;
+        }
     }
 }
