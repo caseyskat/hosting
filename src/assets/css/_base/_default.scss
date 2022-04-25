@@ -132,3 +132,14 @@ section{
         justify-content: stretch;
     }
 }
+.big_box{
+    display: grid;
+    grid-template-columns: 100%;
+    .icons{
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
